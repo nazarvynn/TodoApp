@@ -1,2 +1,2 @@
 # TodoApp
-Todo application useing MEAN (Mongo, Express, Angular, Node)
+Todo application using MEAN (Mongo, Express, Angular, Node).
