@@ -14,4 +14,9 @@ Todo application using MEAN (Mongo, Express, Angular, Node).
 * Database: "todoApp"
 `use todoApp`
 * Collection: "TodoList"
-`db.createCollection("TodoList", {autoIndexID: true})`
+````
+db.createCollection("TodoList")
+
+#Optional
+db.createCollection("TodoList", {autoIndexID: true})
+``

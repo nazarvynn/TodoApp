@@ -15,7 +15,8 @@ app.use(methodOverride());
 
 
 //MongoDB connection
-mongoose.connect('mongodb://127.0.0.1:27017/todoApp');
+mongoose.connect('mongodb://localhost/todoApp');
+//mongoose.connect('mongodb://127.0.0.1:27017/todoApp');
 
 //Database model
 var Todo = mongoose.model('TodoList', {
